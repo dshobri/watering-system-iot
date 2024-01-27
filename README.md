@@ -1,6 +1,8 @@
 ** Smart IoT Watering System **
 
 A watering system that utilizes Google Cloud Platform to store the data read from the sensors into MongoDB.
+* WateringSystem-GCP.ino contains the Arduino code that should be uploaded to the microcontroller
+* mqtt-json.py contains the python script that should be run on Google Cloud Platform VM instance to ingest the data into MongoDB
 
 Utilizes these sensors:
 - Soil Moisture Sensor
